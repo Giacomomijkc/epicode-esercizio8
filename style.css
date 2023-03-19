@@ -1,0 +1,466 @@
+/* definizione font*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Istruzioni di reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.15);
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+/*Regole di stile per i due elementi del logo che ho trovato in png solo singolarmente*/
+#monogramma{
+    width: 40px;
+}
+
+#logomedium{
+    width: 120px;
+    margin-left: 5px;
+}
+
+.user-area{
+    display: flex;
+    align-items: center;
+}
+
+/*Regole di stile per le diverse tipologie di icone*/
+.icon{
+    margin: 0 10px;
+    font-size: 20px;
+    color: gray;
+}
+
+.icon2{
+    margin-left: 7px;
+}
+
+.icon3{
+    margin-left: 10px;
+    font-size: 8pt;
+    color: gray;
+}
+
+.user-area-items{
+    margin: 0 10px;
+}
+
+#user-button{
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 10pt;
+    padding: 7px 0;
+    background-color: white;
+}
+
+#profile-button{
+    font-size: 16pt;
+    background-color: rgb(255, 85, 0);
+    border-radius: 100px;
+    padding-top: 6px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: white;
+    border: none;
+    padding-bottom: 25px;
+}
+
+.container2{
+    display: flex;
+}
+
+.left-content{
+    width: 65%;
+    padding: 0 120px;
+    margin-top: 0px;
+}
+
+.content-tab{
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 7px;
+    font-weight: lighter;
+    font-size: 10pt;
+    color: lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+/*regole di stile specifiche per gestire l'evidenziazione del secondo tab "reccomended"*/
+#following{
+    color: gray;
+    padding-bottom: 10px;
+    font-size: 10pt;
+}
+
+#reccomended{
+    border-bottom: 2px solid black;
+    margin-left: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 10pt;
+}
+
+#left-content-tab{
+    border-bottom: 2px solid lightgray;
+    width: 118%;
+    margin-top: 60px;
+    padding-bottom: 10px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-content{
+    width: 80%;
+}
+
+.image-content{
+    width: 20%;
+}
+
+.text-content{
+    margin-top: 60px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.creator-profile{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.creator-title{
+    font-size: 10pt;
+    font-weight: 400;
+    
+}
+
+.creator-title-in{
+    color: gray;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.title-content{
+    font-size: 15pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.paragrafo-content{
+    font-size: 11pt;
+    font-weight: lighter;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.details-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-content-info{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+.details-content-info-paragrafo{
+    color: gray;
+    font-size: 8pt;
+}
+
+#details-content-info-selected{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+/*regole di stile per allineare centralmente il punto*/
+.dot{
+    top: -5px;
+    position: relative;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: block;
+    height: 100%;
+    color: gray;
+}
+
+.icons-content{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cover-image{
+    width: 220px;
+    height: 125px;
+    margin-top: 65px;
+    object-fit: cover;
+    margin-left: 15px;
+}
+
+.right-options{
+    width: 35%;
+    border-left: 2px solid lightgray;
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.logo2{
+    width: 50px;
+    object-fit: cover;
+}
+
+#icon4{
+    padding-top: 10px;
+    font-size: 20pt;
+}
+
+.twitter-logo{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.cta{
+    margin-top: 10px;
+}
+
+.cta-title{
+    font-size: 13pt;
+    color: black;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.button-cta{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-cta-twitter{
+    width: 250px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    font-size: 12pt;
+    font-weight: lighter;
+    padding: 10px 10px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.twitter-logo-button{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.maybe-later{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.maybe-later-text{
+    color: gray;
+    text-decoration: underline;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.line{
+    width: 80%;
+    margin: 30px 30px 10px 50px;
+    border-bottom: 2px solid lightgray;
+}
+
+.recommended{
+    width: 80%;
+}
+
+.recommended-title{
+    font-size: 12pt;
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+
+.tag-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    width: 70%;
+    margin: 10px 40px;
+}
+
+.tag{
+    color: black;
+    font-weight: lighter;
+    border-radius: 40px;
+    background-color: lightgray;
+    padding: 10px 15px;
+    margin: 5px 5px;
+    font-size: 10pt;
+}
+
+.who-to-follow{
+    width: 100%;
+}
+
+.who-to-follow-title{
+    font-size: 12pt;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.who-to-follow-info{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.who-to-follow-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+.who-to-follow-name{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.who-to-follow-img-name-bio-container{
+    display: flex;
+    align-items: center;
+}
+
+.who-to-follow-bio{
+    color: gray;
+    font-size: 10pt;
+    font-weight: lighter;
+}
+
+.who-to-follow-cta{
+    width: 60px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 10pt;
+    padding: 5px 0;
+    background-color: white;
+    margin-right: -50px;
+}
+
+.recently-saved{
+    width: 80%;
+}
+
+.recently-saved-info{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.recently-saved-info-img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.recently-saved-info-p{
+    font-size: 10pt;
+}
+
+.recently-seved-title{
+    font-size: 12pt;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.recently-saved-info-description-title{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 11pt;
+}
+
+.recently-saved-info-stats{
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.recently-saved-info-stats-span{
+    color: gray;
+    font-size: 10pt;
+}
+
+.fa-star{
+    color: lightgray;
+    height: 5px;
+}
+
+.see-all-paragrafo{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: green;
+    font-weight: lighter;
+    font-size: 12pt;
+}
+
+.link-utili{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    width: 85%;
+    margin: 60px 40px;
+}
+
+.link-utili-paragrafo{
+    color: gray;
+    font-weight: lighter;
+    margin: 5px 15px;
+    font-size: 11pt;
+}
